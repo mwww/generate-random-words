@@ -104,15 +104,9 @@ def main(conf):
 if __name__ == '__main__':
     # NOTE: ascii_lowercase: "abcdefghijklmnopqrstuvwxyz", digits: "0123456789",
     #       ascii_lowercase + digits: "abcdefghijklmnopqrstuvwxyz0123456789"
-    # settings = {
-    #     "word_length": 4,
-    #     "materials": ascii_lowercase,
-    #     "only_allow_readable": True,
-    #     "amount_of_unique_chars": 2,
-    # }
     settings = {
-        "word_length": 6,
-        "materials": ascii_lowercase + digits,
+        "word_length": 4,
+        "materials": ascii_lowercase,
         "only_allow_readable": True,
         "amount_of_unique_chars": 2,
     }
